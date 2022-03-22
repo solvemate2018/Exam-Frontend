@@ -22,7 +22,8 @@ function generateContent(sorting) {
         .then((response) => response.json())
         .then((data) => {
             if(sorting === "fullName"){
-                data.sort((a,b) => (a.fullName > b.fullName) ? 1 : ((b.fullName > a.fullName) ? -1 : 0)).forEach(candidate => {
+                data.sort((a,b) => (a.fullName > b.fullName) ? 1 : ((b.fullName > a.fullName) ? -1 : 0))
+                .forEach(candidate => {
                     generateRow(candidate);
                 });
             }

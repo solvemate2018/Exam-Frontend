@@ -1,0 +1,13 @@
+Name: Georgi Emilov Dimitrov
+
+Student Id: geor2020 
+
+GitHub project repo: https://github.com/solvemate2018/Exam
+
+I did all of the requirements. Designed 3 entities, one of them for the votes. I connected them to MySQL via JPA. I created endpoints
+for CRUD of candidates, also for getting them by party. I also have endpoints for: creating Parties, getting all parties, voting for a given
+candidate, getting election result statistics. Regarding the frontend, I connected it to most of my endpoints. I have pages for: voting,
+login, seeing all candidates(and filtering them by party or name), editing candidates, creating candidates, deleting candidates, seeing
+all parties, creating new parties, seeing statistics for the election results. The statistics include: the total number of votes,
+the parties with their number of votes and bars for a percentage of the vote, the top 8 candidates ordered by votes, including the
+number of votes and percentage of all the votes. I also have service tests and test for some of the endpoints.
